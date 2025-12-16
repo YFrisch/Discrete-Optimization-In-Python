@@ -1,0 +1,18 @@
+format: jb-book
+root: index
+chapters:
+  - file: 01-Introduction
+  - file: 02-Fourier-Motzkin-Elimination
+  - file: 03-Affine-Mappings-and-Polar-Cones
+  - file: 04-Interior-Exterior-Representations
+  - file: 05-The-Integer-Hull
+  - file: 06-Branch-And-Bound
+  - file: 07-Unimodularity-and-Total-Dual-Integrality
+  - file: 08-Fractional-and-Mixed-Integer-Gomory-Cuts
+  - file: 09-The-Knapsack-Problem
+  - file: 10-The-Set-Packing-Polytope
+  - file: 11-Lagrange-Relaxation
+  - file: 12-Dantzig-Wolfe-Decomposition
+  - file: 13-Benders-Decomposition
+  - file: 14-Heuristic-Methods
+  - file: 15-Other-Heuristics

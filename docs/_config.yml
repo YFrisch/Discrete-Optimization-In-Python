@@ -1,0 +1,15 @@
+title: Discrete Optimization in Python
+author: Yannik Frisch
+only_build_toc_files: true
+
+execute:
+  execute_notebooks: "force"
+  timeout: 300
+
+repository:
+  url: https://github.com/YFrisch/Discrete-Optimization-In-Python
+  branch: master
+
+html:
+  use_repository_button: true
+  use_issues_button: true
