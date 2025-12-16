@@ -2,6 +2,11 @@ title: Discrete Optimization in Python
 author: Yannik Frisch
 only_build_toc_files: true
 
+sphinx:
+  config:
+    root_doc: docs/index
+    master_doc: docs/index
+
 execute:
   execute_notebooks: "force"
   timeout: 300
@@ -13,3 +18,13 @@ repository:
 html:
   use_repository_button: true
   use_issues_button: true
+
+exclude_patterns:
+  - ".venv"
+  - ".venv/**"
+  - "**/.venv/**"
+  - "**/__pycache__/**"
+  - "**/.ipynb_checkpoints/**"
+  - "_build/**"
+  - "docs/_build/**"
+  - ".git/**"
