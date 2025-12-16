@@ -1,0 +1,18 @@
+format: jb-book
+root: docs/index
+chapters:
+  - file: notebooks/01-Introduction
+  - file: notebooks/02-Fourier-Motzkin-Elimination
+  - file: notebooks/03-Affine-Mappings-and-Polar-Cones
+  - file: notebooks/04-Interior-Exterior-Representations
+  - file: notebooks/05-The-Integer-Hull
+  - file: notebooks/06-Branch-And-Bound
+  - file: notebooks/07-Unimodularity-and-Total-Dual-Integrality
+  - file: notebooks/08-Fractional-and-Mixed-Integer-Gomory-Cuts
+  - file: notebooks/09-The-Knapsack-Problem
+  - file: notebooks/10-The-Set-Packing-Polytope
+  - file: notebooks/11-Lagrange-Relaxation
+  - file: notebooks/12-Dantzig-Wolfe-Decomposition
+  - file: notebooks/13-Benders-Decomposition
+  - file: notebooks/14-Heuristic-Methods
+  - file: notebooks/15-Other-Heuristics

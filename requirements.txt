@@ -1,0 +1,14 @@
+jupyterlab
+numpy
+scipy
+sympy
+pandas
+matplotlib
+
+# Dev / quality
+pytest
+nbmake
+ruff
+black
+pre-commit
+nbstripout
