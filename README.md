@@ -5,7 +5,6 @@ decomposition methods, and heuristics -- with Python implementations.
 
 ## Who this is for
 
---- 
 You'll get the most out of this if you are already somewhat familiar with:
 - Linear algebra basics
 - Introductory linear programming (LP)
@@ -13,13 +12,10 @@ You'll get the most out of this if you are already somewhat familiar with:
 
 ## Quickstart
 
----
 1. Create and activate a virtual Python environment with `make install`. This will also install all necessary project dependencies into the virtual environment.
 2. Start jupyter lab with `make lab`.
    
 ## Walkthrough
-
----
 
 For the complete tutorial, please work through the notebooks in the following order:
 1. [Introduction](notebooks/01-Introduction.ipynb)
@@ -40,15 +36,11 @@ For the complete tutorial, please work through the notebooks in the following or
 
 ## Repository structure
 
---- 
-
 * `*.ipynb` -- The tutorial notebooks
 * `src/` -- Reusable implementations used by notebooks (algorithms, utilities, etc.)
 * `docs/` -- Rendered website via Jupyter Book
 
 ## Contributing
-
---- 
 
 PRs are welcome:
 * Typo fixes, clarity improvements
@@ -57,8 +49,6 @@ PRs are welcome:
 * Solver/modeling examples
 
 ## Pre-Commit
-
---- 
 
 This repository uses pre-commits to run a set of hooks before git commits.
 This can be done manually by:
@@ -77,5 +67,4 @@ The underlying Sphinx framework supports incremental builds, only rebuilding pag
 
 ## License
 
----
-
+Licensed under MIT License.
