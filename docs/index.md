@@ -35,7 +35,7 @@ Use the sidebar to follow the tutorial order, starting with **01-Introduction**.
 For the "full experience", it's best to go in order:
 
 1. {doc}`01 — Introduction </notebooks/01-Introduction>`
-2. {doc}`WIP: 02 — Fourier Motzkin Elimination </notebooks/02-Fourier-Motzkin-Elimination>`
+2. {doc}`02 — Fourier Motzkin Elimination </notebooks/02-Fourier-Motzkin-Elimination>`
 3. {doc}`WIP: 03 — Affine Mappings and Polar Cones </notebooks/03-Affine-Mappings-and-Polar-Cones>`
 4. {doc}`WIP: 04 — Interior and Exterior Representation </notebooks/04-Interior-Exterior-Representations>`
 5. {doc}`WIP: 05 — The Integer Hull </notebooks/05-The-Integer-Hull>`
