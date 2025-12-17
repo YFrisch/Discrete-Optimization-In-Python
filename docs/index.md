@@ -30,6 +30,7 @@ The notebooks live in `notebooks/`. This rendered website is generated with Jupy
 Algorithmic implementations can be found in `src/` with tests for their functionality in `tests/`.
 
 ## Start here
+
 Use the sidebar to follow the tutorial order, starting with **01-Introduction**.
 
 For the "full experience", it's best to go in order:
@@ -49,4 +50,3 @@ For the "full experience", it's best to go in order:
 13. {doc}`WIP: 13 — Bender's Decomposition </notebooks/13-Benders-Decomposition>`
 14. {doc}`WIP: 14 — Heuristics </notebooks/14-Heuristic-Methods>`
 15. {doc}`WIP: 15 — Other Heuristics </notebooks/15-Other-Heuristics>`
-
