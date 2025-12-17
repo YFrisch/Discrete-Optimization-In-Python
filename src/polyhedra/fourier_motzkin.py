@@ -15,6 +15,7 @@ class FMEStats:
     n_out: int
 
 
+# --- FME:eliminate:start
 def fourier_motzkin_eliminate(
     A: np.ndarray,
     b: np.ndarray,
@@ -110,6 +111,10 @@ def fourier_motzkin_eliminate(
     return A2, b2.reshape(-1, 1), stats
 
 
+# --- FME:eliminate:end
+
+
+# --- FME:bounds:start
 def constraints_1d_bounds(
     a: np.ndarray, b: np.ndarray, *, tol: float = 1e-12
 ) -> tuple[float, float]:
@@ -132,3 +137,6 @@ def constraints_1d_bounds(
         else:
             L = max(L, bound)
     return float(L), float(U)
+
+
+# --- FME:bounds:end
