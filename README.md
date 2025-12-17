@@ -27,7 +27,7 @@ The underlying Sphinx framework supports incremental builds, only rebuilding pag
 For the complete tutorial, please work through the notebooks in the following order:
 1. [01-Introduction](notebooks/01-Introduction.ipynb)
 2. [02-Fourier Motzkin Elimination](notebooks/02-Fourier-Motzkin-Elimination.ipynb)
-3. WIP: [03-Affine Mappings and Polar Cones](notebooks/03-Affine-Mappings-and-Polar-Cones.ipynb)
+3. [03-Affine Mappings and Polar Cones](notebooks/03-Affine-Mappings-and-Polar-Cones.ipynb)
 4. WIP: [04-Interior and Exterior Representation](notebooks/04-Interior-Exterior-Representations.ipynb)
 5. WIP: [05-The Integer Hull](notebooks/05-The-Integer-Hull.ipynb)
 6. WIP: [06-Branch and Bound Method](notebooks/06-Branch-And-Bound.ipynb)
