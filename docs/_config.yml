@@ -24,6 +24,7 @@ exclude_patterns:
   - ".venv/**"
   - "**/.venv/**"
   - "**/__pycache__/**"
+  - "**/.pytest_cache/**"
   - "**/.ipynb_checkpoints/**"
   - "_build/**"
   - "docs/_build/**"
