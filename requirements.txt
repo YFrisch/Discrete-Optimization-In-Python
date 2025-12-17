@@ -12,3 +12,6 @@ ruff
 black
 pre-commit
 nbstripout
+
+# Docs
+jupyter-book<2
