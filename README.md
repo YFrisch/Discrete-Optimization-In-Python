@@ -3,11 +3,12 @@
 A notebook-first tutorial for discrete optimization: polyhedral concepts, integer programming,
 decomposition methods, and heuristics -- with Python implementations.
 
-![](docs/_static/img/cover.png)
+![cover image](docs/_static/img/cover.png)
 
 ## Who this is for
 
 You'll get the most out of this if you are already somewhat familiar with:
+
 - Linear algebra basics
 - Introductory linear programming (LP)
 - Basic Python + NumPy knowledge
@@ -21,10 +22,11 @@ You'll get the most out of this if you are already somewhat familiar with:
 
 The book can be built with `jupyter-book build . --config docs/_config.yml --toc docs/_toc.yml --path-output docs` \
 The underlying Sphinx framework supports incremental builds, only rebuilding pages that changed.
-   
+
 ## Walkthrough
 
 For the complete tutorial, please work through the notebooks in the following order:
+
 1. [01-Introduction](notebooks/01-Introduction.ipynb)
 2. [02-Fourier Motzkin Elimination](notebooks/02-Fourier-Motzkin-Elimination.ipynb)
 3. [03-Affine Mappings and Polar Cones](notebooks/03-Affine-Mappings-and-Polar-Cones.ipynb)
@@ -43,31 +45,34 @@ For the complete tutorial, please work through the notebooks in the following or
 
 ## Repository structure
 
-* `notebooks/` -- The tutorial notebooks
-* `docs/` -- Rendered website via Jupyter Book
-* `src/` -- Reusable implementations used by notebooks (algorithms, utilities, etc.)
-* `tests/` -- Test scripts for core functionalities and algorithmic implementations
+- `notebooks/` -- The tutorial notebooks
+- `docs/` -- Rendered website via Jupyter Book
+- `src/` -- Reusable implementations used by notebooks (algorithms, utilities, etc.)
+- `tests/` -- Test scripts for core functionalities and algorithmic implementations
 
 ## Pre-commit
 
 This repository uses pre-commits to run a set of hooks before git commits.
 This can be done manually by:
+
 1. Setting up the hooks via `make precommit`
 2. Running them with `pre-commit run --all-files`
 
 The hooks include:
-* **nbstripout** to remove notebook cell outputs and normalize metadata
-* **ruff** for fast linting and fixing Python code and notebook cells
-* **black** for formatting Python code consistently
+
+- **nbstripout** to remove notebook cell outputs and normalize metadata
+- **ruff** for fast linting and fixing Python code and notebook cells
+- **black** for formatting Python code consistently
 
 ## Contributing
 
 PRs are welcome:
-* Typo & code fixes, clarity improvements
-* Repository structure/functionality improvements
-* Additional exercises + solutions
-* New notebooks with small reproducible examples
-* Solver/modeling examples
+
+- Typo & code fixes, clarity improvements
+- Repository structure/functionality improvements
+- Additional exercises + solutions
+- New notebooks with small reproducible examples
+- Solver/modeling examples
 
 ## License
 
