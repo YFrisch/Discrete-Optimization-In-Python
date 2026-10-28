@@ -32,7 +32,7 @@ For the complete tutorial, please work through the notebooks in the following or
 3. [03-Affine Mappings and Polar Cones](notebooks/03-Affine-Mappings-and-Polar-Cones.ipynb)
 4. [04-Interior and Exterior Representation](notebooks/04-Interior-Exterior-Representations.ipynb)
 5. [05-The Integer Hull](notebooks/05-The-Integer-Hull.ipynb)
-6. WIP: [06-Branch and Bound Method](notebooks/06-Branch-And-Bound.ipynb)
+6. [06-Branch and Bound](notebooks/06-Branch-And-Bound.ipynb)
 7. WIP: [07-Unimodularity and Dual Integrality](notebooks/07-Unimodularity-and-Total-Dual-Integrality.ipynb)
 8. WIP: [08-Gomory Cuts](notebooks/08-Fractional-and-Mixed-Integer-Gomory-Cuts.ipynb)
 9. WIP: [09-The Knapsack Problem](notebooks/09-The-Knapsack-Problem.ipynb)

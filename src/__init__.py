@@ -1,3 +1,8 @@
+from src.optimization.branch_and_bound import (
+    BranchAndBoundNode,
+    BranchAndBoundResult,
+    branch_and_bound,
+)
 from src.polyhedra.affine import affine_image_hrep_invertible, affine_image_hrep_via_projection
 from src.polyhedra.fourier_motzkin import constraints_1d_bounds, fourier_motzkin_eliminate
 from src.polyhedra.integer_hull import integer_hull_vertices_2d, lattice_points_in_polytope_2d
@@ -17,4 +22,7 @@ __all__ = [
     "vertices_to_hrep_2d",
     "lattice_points_in_polytope_2d",
     "integer_hull_vertices_2d",
+    "BranchAndBoundNode",
+    "BranchAndBoundResult",
+    "branch_and_bound",
 ]
