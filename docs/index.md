@@ -41,8 +41,8 @@ For the "full experience", it's best to go in order:
 4. {doc}`04 — Interior and Exterior Representation </notebooks/04-Interior-Exterior-Representations>`
 5. {doc}`05 — The Integer Hull </notebooks/05-The-Integer-Hull>`
 6. {doc}`06 — Branch and Bound </notebooks/06-Branch-And-Bound>`
-7. {doc}`WIP: 07 — Unimodularity and Dual Integrality </notebooks/07-Unimodularity-and-Total-Dual-Integrality>`
-8. {doc}`WIP: 08 — Gomory Cuts </notebooks/08-Fractional-and-Mixed-Integer-Gomory-Cuts>`
+7. {doc}`07 — Unimodularity and Total Dual Integrality </notebooks/07-Unimodularity-and-Total-Dual-Integrality>`
+8. {doc}`08 — Fractional and Mixed-Integer Gomory Cuts </notebooks/08-Fractional-and-Mixed-Integer-Gomory-Cuts>`
 9. {doc}`WIP: 09 — The Knapsack Problem </notebooks/09-The-Knapsack-Problem>`
 10. {doc}`WIP: 10 — The Set-Packing Polytope </notebooks/10-The-Set-Packing-Polytope>`
 11. {doc}`WIP: 11 — Lagrange Relaxation </notebooks/11-Lagrange-Relaxation>`
