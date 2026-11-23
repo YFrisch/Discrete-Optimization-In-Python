@@ -6,6 +6,27 @@ build-backend = "setuptools.build_meta"
 name = "discrete-optimization-in-python"
 version = "0.1.0"
 requires-python = ">=3.9"
+dependencies = [
+    "matplotlib",
+    "numpy",
+    "scipy",
+]
+
+[project.optional-dependencies]
+docs = [
+    "jupyter-book>=1,<2",
+    "pandas",
+    "sympy",
+]
+dev = [
+    "black",
+    "jupyterlab",
+    "nbmake",
+    "nbstripout",
+    "pre-commit",
+    "pytest",
+    "ruff",
+]
 
 [tool.setuptools.packages.find]
 where = ["."]

@@ -1,5 +1,8 @@
 .PHONY: help venv install lab lint format test precommit
 
+VENV := .venv
+PYTHON := $(VENV)/bin/python
+
 help:
 	@echo "Targets:"
 	@echo "  make venv      - create .venv"
@@ -10,23 +13,28 @@ help:
 	@echo "  make test      - pytest"
 	@echo "  make precommit - install pre-commit hooks"
 
-venv:
-	python3 -m venv .venv
+venv: $(PYTHON)
+
+$(PYTHON):
+	python3 -m venv $(VENV)
 
 install: venv
-	. .venv/bin/activate && python3 -m pip install -U pip && pip install -r requirements.txt && pip install -e .
+	$(PYTHON) -m pip install --upgrade pip
+	$(PYTHON) -m pip install -e ".[dev,docs]"
 
 lab:
-	. .venv/bin/activate && jupyter lab
+	$(PYTHON) -m jupyter lab
 
 lint:
-	. .venv/bin/activate && ruff check . && black --check .
+	$(PYTHON) -m ruff check .
+	$(PYTHON) -m black --check .
 
 format:
-	. .venv/bin/activate && ruff check . --fix && black .
+	$(PYTHON) -m ruff check . --fix
+	$(PYTHON) -m black .
 
 test:
-	. .venv/bin/activate && pytest -q
+	$(PYTHON) -m pytest -q
 
 precommit:
-	. .venv/bin/activate && pre-commit install
+	$(PYTHON) -m pre_commit install
